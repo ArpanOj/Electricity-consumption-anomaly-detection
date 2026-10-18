@@ -1,0 +1,201 @@
+site_id,building_id,primary_use,square_feet,year_built,floor_count
+0,1,Education,2720,2004.0,
+0,32,Office,48392,2005.0,
+0,41,Office,93860,1968.0,
+0,55,Office,16726,2011.0,
+0,69,Parking,387638,2000.0,
+0,79,Office,36240,2010.0,
+0,82,Office,10743,1974.0,
+0,91,Education,68094,2003.0,
+1,107,Education,97532,2005.0,10.0
+1,108,Education,81580,1913.0,5.0
+1,111,Education,118338,1909.0,7.0
+1,112,Education,32206,,6.0
+1,117,Education,15489,2004.0,4.0
+1,118,Education,138316,1960.0,8.0
+1,119,Education,91149,2007.0,7.0
+1,121,Education,150318,1906.0,9.0
+1,136,Lodging/residential,56467,1960.0,9.0
+1,137,Entertainment/public assembly,64024,1967.0,6.0
+1,139,Public services,56629,1900.0,6.0
+1,141,Office,44789,1919.0,5.0
+1,144,Office,57673,,5.0
+1,147,Office,82548,1977.0,7.0
+1,148,Office,174601,1960.0,12.0
+1,149,Office,81881,1960.0,8.0
+2,159,Education,9788,,
+2,171,Office,131797,1968.0,
+2,173,Education,90903,,
+2,174,Education,90900,,
+2,181,Education,148829,2014.0,
+2,183,Education,132518,1992.0,
+2,190,Education,137040,1957.0,
+2,235,Education,9309,1970.0,
+2,238,Office,45017,,
+2,240,Lodging/residential,111304,1964.0,
+2,246,Office,202435,1967.0,
+2,247,Education,64560,1965.0,
+2,248,Education,24643,1982.0,
+2,253,Education,65907,1964.0,
+2,254,Entertainment/public assembly,254766,1989.0,
+2,263,Education,87673,1960.0,
+2,270,Office,29778,,
+2,275,Office,70832,2014.0,
+2,276,Office,70837,2014.0,
+2,278,Office,148101,,
+2,290,Office,51732,1966.0,
+3,293,Office,408000,2010.0,
+3,312,Entertainment/public assembly,6625,,
+3,318,Office,105000,,
+3,335,Office,229000,2010.0,
+3,345,Lodging/residential,7250,,
+3,356,Public services,4336,,
+3,423,Entertainment/public assembly,969,,
+3,439,Office,62205,,
+3,492,Education,193800,,
+3,534,Entertainment/public assembly,898,,
+3,560,Office,340000,2010.0,
+4,623,Education,49388,1931.0,6.0
+4,653,Education,420885,1930.0,8.0
+5,657,Education,109071,1966.0,3.0
+5,658,Entertainment/public assembly,31075,1976.0,2.0
+5,666,Entertainment/public assembly,12045,1976.0,1.0
+5,667,Entertainment/public assembly,15715,1966.0,2.0
+5,673,Entertainment/public assembly,36307,1976.0,2.0
+5,675,Manufacturing/industrial,3853,1976.0,1.0
+5,677,Public services,7072,1919.0,2.0
+5,680,Public services,9849,1976.0,2.0
+5,683,Office,4650,1976.0,2.0
+5,685,Office,270034,1976.0,5.0
+5,687,Office,36221,1976.0,4.0
+5,693,Office,57436,1976.0,3.0
+5,697,Education,18697,1919.0,2.0
+5,698,Education,13939,1976.0,1.0
+5,701,Education,128682,1966.0,4.0
+5,708,Education,102429,1945.0,4.0
+5,710,Education,12088,1919.0,4.0
+5,721,Education,121471,1966.0,3.0
+5,722,Education,31635,1966.0,3.0
+5,729,Education,17190,1919.0,2.0
+5,730,Education,126045,1966.0,4.0
+5,732,Education,66187,1976.0,1.0
+5,739,Education,137046,1966.0,2.0
+5,742,Entertainment/public assembly,31829,1976.0,2.0
+7,801,Education,484376,1952.0,5.0
+8,827,Office,5839,,1.0
+8,844,Entertainment/public assembly,6944,,1.0
+8,848,Office,8552,,1.0
+9,879,Education,110235,,
+9,880,Education,157723,,
+9,881,Entertainment/public assembly,344798,,
+9,882,Education,39143,,
+9,884,Education,38598,,
+9,886,Education,69799,,
+9,887,Lodging/residential,69754,,
+9,889,Education,126077,,
+9,890,Education,202937,,
+9,892,Services,481999,,
+9,893,Education,47191,,
+9,894,Education,101555,,
+9,895,Education,55087,,
+9,896,Education,245637,,
+9,903,Education,275793,,
+9,905,Lodging/residential,39648,,
+9,909,Entertainment/public assembly,66121,,
+9,914,Education,229973,,
+9,919,Education,31233,,
+9,922,Education,147205,,
+9,924,Entertainment/public assembly,252268,,
+9,925,Education,54405,,
+9,926,Education,26033,,
+9,928,Education,179115,,
+9,929,Education,199628,,
+9,931,Education,216050,,
+9,935,Office,16135,,
+9,936,Lodging/residential,11350,,
+9,941,Lodging/residential,8079,,
+9,942,Lodging/residential,57334,,
+9,945,Office,332447,,
+9,948,Entertainment/public assembly,20372,,
+9,950,Entertainment/public assembly,16052,,
+9,952,Education,218024,,
+9,961,Education,155882,,
+9,966,Education,393530,,
+9,967,Entertainment/public assembly,119262,,
+9,968,Education,153999,,
+9,969,Education,193723,,
+9,970,Services,346056,,
+9,971,Lodging/residential,301307,,
+9,973,Office,193960,,
+9,974,Education,186572,,
+9,975,Entertainment/public assembly,426472,,
+9,977,Office,8837,,
+9,978,Education,258491,,
+9,981,Education,167055,,
+9,988,Office,24463,,
+9,990,Office,82939,,
+9,992,Office,51483,,
+9,994,Education,108392,,
+9,996,Education,77632,,
+10,1001,Other,4482,,1.0
+10,1007,Office,41933,,2.0
+12,1068,Education,112956,,
+13,1073,Office,194111,,
+13,1074,Office,89858,,
+13,1106,Office,92099,,
+13,1120,Services,70040,,
+13,1128,Office,58703,,
+13,1137,Office,27452,,
+13,1141,Parking,20986,,
+13,1143,Office,96612,,
+13,1147,Entertainment/public assembly,234476,,
+13,1172,Manufacturing/industrial,63847,,
+13,1219,Office,91316,,
+14,1225,Office,122746,,
+14,1226,Education,27995,,
+14,1230,Office,22524,,
+14,1232,Education,181328,,
+14,1234,Education,46037,,
+14,1238,Office,129707,,
+14,1239,Office,31300,,
+14,1241,Healthcare,194188,,
+14,1242,Office,23871,,
+14,1245,Healthcare,35354,,
+14,1246,Office,50327,,
+14,1247,Food sales and service,69876,,
+14,1249,Office,159384,,
+14,1251,Education,104604,,
+14,1252,Education,116249,,
+14,1253,Education,134748,,
+14,1255,Office,23702,,
+14,1257,Office,61274,,
+14,1258,Education,273234,,
+14,1259,Education,71088,,
+14,1260,Office,86455,,
+14,1261,Office,42942,,
+14,1264,Education,33012,,
+14,1266,Public services,13469,,
+14,1267,Education,138977,,
+14,1272,Public services,247471,,
+14,1275,Office,114166,,
+14,1278,Education,79949,,
+14,1279,Office,64743,,
+14,1283,Public services,76537,,
+14,1284,Education,442438,,
+14,1285,Healthcare,130067,,
+14,1296,Office,8836,,
+14,1297,Office,21469,,
+14,1300,Healthcare,25609,,
+14,1302,Office,90411,,
+14,1303,Healthcare,200000,,
+14,1304,Office,91363,,
+14,1306,Lodging/residential,54172,,
+14,1309,Lodging/residential,58041,,
+14,1310,Lodging/residential,57274,,
+14,1311,Lodging/residential,66794,,
+14,1315,Entertainment/public assembly,82789,,
+14,1316,Entertainment/public assembly,49975,,
+14,1318,Entertainment/public assembly,73488,,
+14,1319,Entertainment/public assembly,287419,,
+14,1323,Office,87200,,
+15,1353,Religious worship,22201,,

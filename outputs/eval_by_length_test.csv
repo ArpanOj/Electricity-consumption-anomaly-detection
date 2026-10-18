@@ -1,0 +1,49 @@
+scope,length_group,method,events,found,recall_pct,low_pct,high_pct,hour_share_pct,few_events
+All labeled buildings,1 h,Same as last hour,212,77,36.3,30.1,43.0,36.3,False
+All labeled buildings,1 h,Historical typical value,212,0,0.0,-0.0,1.8,0.0,False
+All labeled buildings,1 h,Model A (no history),212,0,0.0,-0.0,1.8,0.0,False
+All labeled buildings,1 h,"Model B (+ yesterday, last week)",212,0,0.0,-0.0,1.8,0.0,False
+All labeled buildings,1 h,Model C (+ previous hour),212,52,24.5,19.2,30.7,24.5,False
+All labeled buildings,1 h,Fixed percentile,212,10,4.7,2.6,8.5,4.7,False
+All labeled buildings,2-3 h,Same as last hour,92,34,37.0,27.8,47.2,20.1,False
+All labeled buildings,2-3 h,Historical typical value,92,0,0.0,-0.0,4.0,0.0,False
+All labeled buildings,2-3 h,Model A (no history),92,0,0.0,-0.0,4.0,0.0,False
+All labeled buildings,2-3 h,"Model B (+ yesterday, last week)",92,0,0.0,-0.0,4.0,0.0,False
+All labeled buildings,2-3 h,Model C (+ previous hour),92,35,38.0,28.8,48.3,19.4,False
+All labeled buildings,2-3 h,Fixed percentile,92,6,6.5,3.0,13.5,4.3,False
+All labeled buildings,4-12 h,Same as last hour,185,32,17.3,12.5,23.4,4.5,False
+All labeled buildings,4-12 h,Historical typical value,185,1,0.5,0.1,3.0,0.1,False
+All labeled buildings,4-12 h,Model A (no history),185,0,0.0,0.0,2.0,0.0,False
+All labeled buildings,4-12 h,"Model B (+ yesterday, last week)",185,2,1.1,0.3,3.9,0.6,False
+All labeled buildings,4-12 h,Model C (+ previous hour),185,42,22.7,17.3,29.3,8.5,False
+All labeled buildings,4-12 h,Fixed percentile,185,17,9.2,5.8,14.2,4.6,False
+All labeled buildings,>12 h,Same as last hour,98,28,28.6,20.6,38.2,1.8,False
+All labeled buildings,>12 h,Historical typical value,98,7,7.1,3.5,14.0,4.8,False
+All labeled buildings,>12 h,Model A (no history),98,9,9.2,4.9,16.5,6.7,False
+All labeled buildings,>12 h,"Model B (+ yesterday, last week)",98,18,18.4,11.9,27.2,14.4,False
+All labeled buildings,>12 h,Model C (+ previous hour),98,41,41.8,32.6,51.7,20.4,False
+All labeled buildings,>12 h,Fixed percentile,98,9,9.2,4.9,16.5,3.9,False
+Education only,1 h,Same as last hour,59,17,28.8,18.8,41.4,28.8,False
+Education only,1 h,Historical typical value,59,0,0.0,0.0,6.1,0.0,False
+Education only,1 h,Model A (no history),59,0,0.0,0.0,6.1,0.0,False
+Education only,1 h,"Model B (+ yesterday, last week)",59,0,0.0,0.0,6.1,0.0,False
+Education only,1 h,Model C (+ previous hour),59,14,23.7,14.7,36.0,23.7,False
+Education only,1 h,Fixed percentile,59,6,10.2,4.7,20.5,10.2,False
+Education only,2-3 h,Same as last hour,30,6,20.0,9.5,37.3,10.6,False
+Education only,2-3 h,Historical typical value,30,0,0.0,-0.0,11.4,0.0,False
+Education only,2-3 h,Model A (no history),30,0,0.0,-0.0,11.4,0.0,False
+Education only,2-3 h,"Model B (+ yesterday, last week)",30,0,0.0,-0.0,11.4,0.0,False
+Education only,2-3 h,Model C (+ previous hour),30,11,36.7,21.9,54.5,20.0,False
+Education only,2-3 h,Fixed percentile,30,6,20.0,9.5,37.3,13.3,False
+Education only,4-12 h,Same as last hour,48,6,12.5,5.9,24.7,2.9,False
+Education only,4-12 h,Historical typical value,48,0,0.0,0.0,7.4,0.0,False
+Education only,4-12 h,Model A (no history),48,0,0.0,0.0,7.4,0.0,False
+Education only,4-12 h,"Model B (+ yesterday, last week)",48,1,2.1,0.4,10.9,2.1,False
+Education only,4-12 h,Model C (+ previous hour),48,9,18.8,10.2,31.9,6.9,False
+Education only,4-12 h,Fixed percentile,48,5,10.4,4.5,22.2,3.9,False
+Education only,>12 h,Same as last hour,36,13,36.1,22.5,52.4,2.7,False
+Education only,>12 h,Historical typical value,36,2,5.6,1.5,18.1,5.6,False
+Education only,>12 h,Model A (no history),36,7,19.4,9.8,35.0,13.1,False
+Education only,>12 h,"Model B (+ yesterday, last week)",36,9,25.0,13.8,41.1,23.8,False
+Education only,>12 h,Model C (+ previous hour),36,18,50.0,34.5,65.5,30.4,False
+Education only,>12 h,Fixed percentile,36,4,11.1,4.4,25.3,6.4,False

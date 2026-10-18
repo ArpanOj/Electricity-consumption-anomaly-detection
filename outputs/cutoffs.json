@@ -1,0 +1,26 @@
+{
+  "created": "2026-10-19T00:47:38",
+  "cutoffs": {
+    "last_hour": 13.45888614654541,
+    "typical": 62.4428825378418,
+    "A": 45.38704376618815,
+    "B": 52.88037736453056,
+    "C": 9.640503865771677
+  },
+  "settings": {
+    "USE_LOG": true,
+    "TARGET_FALSE_ALARM": 0.005,
+    "MAD_FLOOR": 0.05,
+    "MIN_VAL_HOURS": 500,
+    "FIXED_PERCENTILE": 99.5,
+    "TRAIN_END": "2016-09-13 00:00:00",
+    "VAL_END": "2016-11-07 00:00:00",
+    "predictors": [
+      "last_hour",
+      "typical",
+      "A",
+      "B",
+      "C"
+    ]
+  }
+}

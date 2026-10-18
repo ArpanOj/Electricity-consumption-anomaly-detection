@@ -1,0 +1,72 @@
+{
+  "model_params": {
+    "max_iter": 600,
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 100,
+    "l2_regularization": 1.0
+  },
+  "features": {
+    "A": [
+      "hour",
+      "dow",
+      "is_weekend",
+      "bld_idx",
+      "site_id",
+      "primary_use_code",
+      "square_feet",
+      "year_built",
+      "floor_count",
+      "air_temperature",
+      "dew_temperature",
+      "cloud_coverage",
+      "precip_depth_1_hr",
+      "sea_level_pressure",
+      "wind_speed"
+    ],
+    "B": [
+      "hour",
+      "dow",
+      "is_weekend",
+      "bld_idx",
+      "site_id",
+      "primary_use_code",
+      "square_feet",
+      "year_built",
+      "floor_count",
+      "air_temperature",
+      "dew_temperature",
+      "cloud_coverage",
+      "precip_depth_1_hr",
+      "sea_level_pressure",
+      "wind_speed",
+      "lag_24",
+      "lag_168"
+    ],
+    "C": [
+      "hour",
+      "dow",
+      "is_weekend",
+      "bld_idx",
+      "site_id",
+      "primary_use_code",
+      "square_feet",
+      "year_built",
+      "floor_count",
+      "air_temperature",
+      "dew_temperature",
+      "cloud_coverage",
+      "precip_depth_1_hr",
+      "sea_level_pressure",
+      "wind_speed",
+      "lag_24",
+      "lag_168",
+      "lag_1"
+    ]
+  },
+  "tuned": true,
+  "seed": 0,
+  "train_end": "2016-09-13 00:00:00",
+  "val_end": "2016-11-07 00:00:00",
+  "zero_run_hours": 24
+}
