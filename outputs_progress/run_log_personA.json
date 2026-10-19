@@ -1,0 +1,83 @@
+{
+  "zero_runs": {
+    "min_run_hours": 24,
+    "hours_removed": 484006,
+    "buildings_affected": 385,
+    "buildings_total": 1413
+  },
+  "old_row_based_lag24_wrong_pct": 0.8215967045130943,
+  "usable_rows_per_split": {
+    "train": 7521680,
+    "val": 1767496,
+    "test": 1755848
+  },
+  "fill_values_from_training_rows": {
+    "air_temperature": 17.8,
+    "dew_temperature": 10.0,
+    "wind_speed": 3.1,
+    "square_feet": 58307.0
+  },
+  "model_settings": {
+    "chosen": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 63,
+      "max_iter": 300
+    },
+    "validation_MAE_set_C": [
+      0.07264005258521758,
+      0.06891870295174829,
+      0.06900914597125689
+    ]
+  },
+  "buildings_without_training_rows": 4,
+  "test_rows_dropped_missing_prediction": 0,
+  "test_accuracy": [
+    {
+      "predictor": "pred_last_hour",
+      "MAE": 8.3162,
+      "RMSE": 60.5414,
+      "R2": 0.9797,
+      "median per-building MAE / mean use": 0.0604
+    },
+    {
+      "predictor": "pred_hist",
+      "MAE": 37.6963,
+      "RMSE": 256.5382,
+      "R2": 0.6356,
+      "median per-building MAE / mean use": 0.2005
+    },
+    {
+      "predictor": "pred_A",
+      "MAE": 65.2859,
+      "RMSE": 237.6921,
+      "R2": 0.6871,
+      "median per-building MAE / mean use": 0.305
+    },
+    {
+      "predictor": "pred_B",
+      "MAE": 22.8354,
+      "RMSE": 169.4085,
+      "R2": 0.8411,
+      "median per-building MAE / mean use": 0.1143
+    },
+    {
+      "predictor": "pred_C",
+      "MAE": 14.6098,
+      "RMSE": 157.9334,
+      "R2": 0.8619,
+      "median per-building MAE / mean use": 0.0605
+    },
+    {
+      "predictor": "pred_D",
+      "MAE": 11.9888,
+      "RMSE": 153.4008,
+      "R2": 0.8697,
+      "median per-building MAE / mean use": 0.0571
+    }
+  ],
+  "target_scale": "log(1 + use)",
+  "rows": {
+    "data": 11576904,
+    "buildings": 1413
+  }
+}

@@ -1,0 +1,2 @@
+outputs_progress/hourly_table.parquet
+outputs_progress/predictions.parquet
