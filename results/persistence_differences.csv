@@ -1,0 +1,17 @@
+mode,length,comparison,diff_pp,ci_low,ci_high
+per_building,1 h,Model C minus Same as last hour,-14.6,-21.3,-8.9
+per_building,2-3 h,Model C minus Same as last hour,-4.3,-19.6,7.7
+per_building,4-12 h,Model C minus Same as last hour,-0.5,-7.3,5.7
+per_building,>12 h,Model C minus Same as last hour,17.3,7.3,29.6
+per_building,1 h,Model C minus Historical typical value,22.6,16.0,29.9
+per_building,2-3 h,Model C minus Historical typical value,19.6,5.1,34.0
+per_building,4-12 h,Model C minus Historical typical value,7.0,-1.2,16.0
+per_building,>12 h,Model C minus Historical typical value,7.1,-7.2,19.5
+pooled,1 h,Model C minus Same as last hour,-13.7,-20.0,-6.6
+pooled,2-3 h,Model C minus Same as last hour,-7.6,-21.7,6.1
+pooled,4-12 h,Model C minus Same as last hour,1.1,-4.5,6.8
+pooled,>12 h,Model C minus Same as last hour,13.3,4.4,24.7
+pooled,1 h,Model C minus Historical typical value,28.8,21.9,36.3
+pooled,2-3 h,Model C minus Historical typical value,44.6,30.7,61.3
+pooled,4-12 h,Model C minus Historical typical value,24.3,14.3,35.9
+pooled,>12 h,Model C minus Historical typical value,25.5,11.2,40.0

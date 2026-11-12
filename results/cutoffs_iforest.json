@@ -1,0 +1,10 @@
+{
+  "cutoffs_iforest": {
+    "iforest_C": 0.6907123399949159,
+    "iforest_raw": 0.6920398316275
+  },
+  "n_estimators": 100,
+  "max_samples": 256,
+  "seed": 0,
+  "fit_on": "training rows before 2016-09-13, per building, no labels"
+}

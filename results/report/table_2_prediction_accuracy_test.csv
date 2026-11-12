@@ -1,0 +1,6 @@
+predictor,hours,MAE_kWh,RMSE_kWh,R2,RMSLE
+Same as last hour,257993,8.09,30.45,0.993,0.2
+Historical typical value,257993,30.28,77.0,0.958,0.699
+Model A (no history),257993,32.7,79.21,0.955,0.705
+"Model B (+ yesterday, last week)",257993,19.59,56.19,0.978,0.442
+Model C (+ previous hour),257993,8.92,31.96,0.993,0.227

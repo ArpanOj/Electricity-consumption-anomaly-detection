@@ -1,0 +1,11 @@
+,value
+buildings,200.0
+rows,1749494.0
+exact duplicate rows,0.0
+duplicate building-timestamp rows,0.0
+negative readings,0.0
+missing readings,0.0
+exact zero readings,70157.0
+share of exact zeros (%),4.01
+rows not exactly 1 h after the previous row (%),0.074
+row-based lag_24 wrong (%),0.89

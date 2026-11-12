@@ -1,0 +1,6 @@
+# Packages used by the notebooks. The results in the report were produced with Python 3.13, numpy 2.5, pandas 3.0, scikit-learn 1.9 and matplotlib 3.11. Other versions of scikit-learn give slightly different numbers for the trained models (see notebooks/README.md).
+numpy
+pandas
+scikit-learn
+matplotlib
+jupyter

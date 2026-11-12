@@ -1,0 +1,49 @@
+mode,rate_pct,method,events,found,recall_pct,ci_low,ci_high,median_delay_h,hour_share_pct,hour_share_when_found_pct,false_alarm_pct
+pooled,0.5,Same as last hour,631,199,31.5,26.4,36.9,0.0,23.3,73.8,0.404
+pooled,0.5,Historical typical value,631,8,1.3,0.0,3.2,0.0,0.7,53.9,0.481
+pooled,0.5,Model A,631,2,0.3,0.0,1.1,0.0,0.3,100.0,0.492
+pooled,0.5,Model B,631,11,1.7,0.3,3.8,0.0,1.1,61.9,0.475
+pooled,0.5,Model C,631,193,30.6,25.6,35.9,1.0,20.4,66.6,0.338
+pooled,0.5,Isolation Forest (on model C error),631,140,22.2,17.4,27.1,1.0,10.3,46.4,0.389
+pooled,0.5,Isolation Forest (on raw readings),631,78,12.4,8.7,16.5,1.0,4.1,33.4,0.437
+pooled,0.5,Fixed percentile,631,30,4.8,1.1,10.4,0.0,3.6,76.6,0.486
+pooled,1.0,Same as last hour,631,249,39.5,33.9,45.6,0.0,27.5,69.8,0.877
+pooled,1.0,Historical typical value,631,17,2.7,0.8,5.2,0.0,1.9,69.7,0.911
+pooled,1.0,Model A,631,22,3.5,1.5,5.9,0.0,2.3,66.9,0.924
+pooled,1.0,Model B,631,18,2.9,1.2,5.0,0.0,2.2,77.2,0.931
+pooled,1.0,Model C,631,259,41.0,35.1,47.4,1.0,27.6,67.3,0.776
+pooled,1.0,Isolation Forest (on model C error),631,219,34.7,28.3,41.4,1.0,18.0,51.9,0.799
+pooled,1.0,Isolation Forest (on raw readings),631,153,24.2,19.3,29.8,1.0,10.8,44.5,0.778
+pooled,1.0,Fixed percentile,631,36,5.7,1.8,11.3,0.0,3.9,68.8,0.991
+pooled,2.0,Same as last hour,631,287,45.5,40.2,51.1,1.0,31.1,68.4,1.86
+pooled,2.0,Historical typical value,631,96,15.2,10.8,20.1,1.0,9.6,63.0,1.655
+pooled,2.0,Model A,631,101,16.0,11.1,21.1,1.0,9.9,61.9,1.698
+pooled,2.0,Model B,631,108,17.1,12.5,22.2,1.0,9.5,55.3,1.719
+pooled,2.0,Model C,631,336,53.2,47.2,59.7,1.0,34.6,65.0,1.716
+pooled,2.0,Isolation Forest (on model C error),631,303,48.0,42.1,53.8,1.0,29.0,60.3,1.729
+pooled,2.0,Isolation Forest (on raw readings),631,231,36.6,30.4,42.7,1.0,19.7,53.9,1.676
+pooled,2.0,Fixed percentile,631,42,6.7,2.6,12.2,0.0,4.5,66.9,2.007
+per_building,0.5,Same as last hour,631,239,37.9,32.8,42.8,1.0,25.5,67.4,0.412
+per_building,0.5,Historical typical value,631,123,19.5,14.9,24.6,1.0,5.7,29.1,0.444
+per_building,0.5,Model A,631,102,16.2,11.9,21.0,1.0,4.2,25.8,0.458
+per_building,0.5,Model B,631,86,13.6,9.8,18.1,1.0,4.1,29.9,0.463
+per_building,0.5,Model C,631,227,36.0,30.0,41.9,1.0,21.2,58.8,0.405
+per_building,0.5,Isolation Forest (on model C error),631,176,27.9,22.7,33.4,1.0,14.9,53.3,0.429
+per_building,0.5,Isolation Forest (on raw readings),631,161,25.5,20.6,30.3,1.0,12.5,49.2,0.446
+per_building,0.5,Fixed percentile,631,16,2.5,0.9,4.5,1.0,0.7,27.3,0.537
+per_building,1.0,Same as last hour,631,284,45.0,39.2,50.2,1.0,30.2,67.2,0.92
+per_building,1.0,Historical typical value,631,150,23.8,18.5,29.4,1.0,8.0,33.6,0.897
+per_building,1.0,Model A,631,126,20.0,15.1,25.3,1.0,6.6,33.0,0.917
+per_building,1.0,Model B,631,106,16.8,12.1,21.9,1.0,6.2,37.0,0.933
+per_building,1.0,Model C,631,283,44.8,38.9,50.6,1.0,27.6,61.6,0.877
+per_building,1.0,Isolation Forest (on model C error),631,249,39.5,33.7,45.2,1.0,22.8,57.7,0.898
+per_building,1.0,Isolation Forest (on raw readings),631,220,34.9,29.0,40.4,1.0,19.4,55.7,0.908
+per_building,1.0,Fixed percentile,631,24,3.8,1.7,6.3,1.0,1.4,36.7,1.069
+per_building,2.0,Same as last hour,631,313,49.6,44.0,54.7,1.0,33.4,67.3,1.9
+per_building,2.0,Historical typical value,631,172,27.3,21.7,32.9,1.0,11.5,42.2,1.765
+per_building,2.0,Model A,631,160,25.4,20.2,31.1,1.0,10.5,41.5,1.799
+per_building,2.0,Model B,631,154,24.4,19.0,30.2,1.0,9.9,40.7,1.824
+per_building,2.0,Model C,631,335,53.1,46.8,59.1,1.0,32.4,61.1,1.804
+per_building,2.0,Isolation Forest (on model C error),631,309,49.0,43.0,54.8,1.0,29.9,61.0,1.819
+per_building,2.0,Isolation Forest (on raw readings),631,283,44.8,38.9,50.4,1.0,28.2,62.8,1.795
+per_building,2.0,Fixed percentile,631,36,5.7,2.7,9.4,1.0,2.9,50.9,2.068

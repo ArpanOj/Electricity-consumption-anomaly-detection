@@ -1,2 +1,13 @@
-outputs_progress/hourly_table.parquet
-outputs_progress/predictions.parquet
+# big or regenerable data (see README.md)
+ashrae-energy-prediction/
+archive/
+data/cu_bems/*.csv
+*.parquet
+# files the notebooks 01-10 regenerate (keep the folder)
+outputs_split/*
+!outputs_split/.gitkeep
+# scratch and system files
+results/**/_scratch/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

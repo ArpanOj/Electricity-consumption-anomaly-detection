@@ -1,0 +1,26 @@
+baseline_rmsle,group,features,rmsle_increase_mean,rmsle_increase_sd,relative_increase_pct
+0.1772,all three lags together,lag_1;lag_24;lag_168,1.961,0.0018,1106.6
+0.1772,lag_1 (previous hour),lag_1,1.8154,0.0005,1024.5
+0.1772,single: lag_1,lag_1,1.8148,0.0013,1024.2
+0.1772,single: lag_168,lag_168,0.1667,0.0008,94.1
+0.1772,lag_168 (same hour last week),lag_168,0.1663,0.0,93.9
+0.1772,"building facts: id, site, use, size, age, floors",bld_idx;site_id;primary_use_code;square_feet;year_built;floor_count,0.1585,0.0004,89.4
+0.1772,single: lag_24,lag_24,0.1183,0.0006,66.7
+0.1772,lag_24 (same hour yesterday),lag_24,0.1175,0.0006,66.3
+0.1772,single: bld_idx,bld_idx,0.1165,0.0004,65.7
+0.1772,"calendar: hour, day of week, weekend",hour;dow;is_weekend,0.0392,0.0008,22.1
+0.1772,single: hour,hour,0.0307,0.0008,17.3
+0.1772,single: air_temperature,air_temperature,0.0217,0.0002,12.2
+0.1772,weather (6 columns),air_temperature;dew_temperature;cloud_coverage;precip_depth_1_hr;sea_level_pressure;wind_speed,0.015,0.0003,8.5
+0.1772,single: square_feet,square_feet,0.014,0.0001,7.9
+0.1772,single: dew_temperature,dew_temperature,0.0126,0.0,7.1
+0.1772,single: dow,dow,0.0116,0.0,6.5
+0.1772,single: sea_level_pressure,sea_level_pressure,0.0064,0.0004,3.6
+0.1772,single: site_id,site_id,0.005,0.0,2.8
+0.1772,single: wind_speed,wind_speed,0.0012,0.0001,0.7
+0.1772,single: is_weekend,is_weekend,0.0002,0.0,0.1
+0.1772,single: year_built,year_built,0.0002,0.0,0.1
+0.1772,single: precip_depth_1_hr,precip_depth_1_hr,0.0001,0.0,0.1
+0.1772,single: cloud_coverage,cloud_coverage,0.0001,0.0,0.1
+0.1772,single: floor_count,floor_count,0.0,0.0,0.0
+0.1772,single: primary_use_code,primary_use_code,0.0,0.0,0.0

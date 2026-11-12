@@ -1,0 +1,29 @@
+target_pct,rule,method,test_flag_rate_pct,events_found,recall_pct
+0.5,one cut-off for all (current),Same as last hour,0.424,171,29.1
+0.5,own cut-off per building,Same as last hour,1.238,259,44.1
+0.5,one cut-off for all (current),Historical typical value,0.113,8,1.4
+0.5,own cut-off per building,Historical typical value,7.529,186,31.7
+0.5,one cut-off for all (current),Model A,0.133,8,1.4
+0.5,own cut-off per building,Model A,4.161,140,23.9
+0.5,one cut-off for all (current),Model B,0.226,20,3.4
+0.5,own cut-off per building,Model B,2.186,129,22.0
+0.5,one cut-off for all (current),Model C,0.743,171,29.1
+0.5,own cut-off per building,Model C,1.713,258,44.0
+0.5,one cut-off for all (current),Isolation Forest (model C error),0.902,126,21.5
+0.5,own cut-off per building,Isolation Forest (model C error),1.345,195,33.2
+0.5,one cut-off for all (current),Isolation Forest (raw readings),0.192,77,13.1
+0.5,own cut-off per building,Isolation Forest (raw readings),1.444,197,33.6
+1.0,one cut-off for all (current),Same as last hour,0.879,212,36.1
+1.0,own cut-off per building,Same as last hour,1.795,276,47.0
+1.0,one cut-off for all (current),Historical typical value,0.759,21,3.6
+1.0,own cut-off per building,Historical typical value,9.73,214,36.5
+1.0,one cut-off for all (current),Model A,0.957,31,5.3
+1.0,own cut-off per building,Model A,6.066,162,27.6
+1.0,one cut-off for all (current),Model B,0.498,40,6.8
+1.0,own cut-off per building,Model B,2.868,151,25.7
+1.0,one cut-off for all (current),Model C,1.519,232,39.5
+1.0,own cut-off per building,Model C,2.529,298,50.8
+1.0,one cut-off for all (current),Isolation Forest (model C error),1.688,194,33.0
+1.0,own cut-off per building,Isolation Forest (model C error),2.124,230,39.2
+1.0,one cut-off for all (current),Isolation Forest (raw readings),0.624,149,25.4
+1.0,own cut-off per building,Isolation Forest (raw readings),2.092,238,40.5

@@ -64,7 +64,7 @@
       "lag_1"
     ]
   },
-  "tuned": true,
+  "tuned": false,
   "seed": 0,
   "train_end": "2016-09-13 00:00:00",
   "val_end": "2016-11-07 00:00:00",

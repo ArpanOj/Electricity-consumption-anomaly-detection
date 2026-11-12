@@ -1,0 +1,11 @@
+split,predictor,hours,MAE_kWh,RMSE_kWh,R2,RMSLE
+val,Same as last hour,249407,9.1,49.09,0.984,0.234
+val,Historical typical value,249407,23.13,65.25,0.971,0.754
+val,Model A (no history),249407,24.61,65.76,0.971,0.695
+val,"Model B (+ yesterday, last week)",249407,14.6,52.32,0.982,0.512
+val,Model C (+ previous hour),249407,8.17,32.04,0.993,0.208
+test,Same as last hour,257993,8.09,30.45,0.993,0.2
+test,Historical typical value,257993,30.3,77.07,0.958,0.7
+test,Model A (no history),257993,30.56,76.43,0.959,0.69
+test,"Model B (+ yesterday, last week)",257993,16.63,50.82,0.982,0.427
+test,Model C (+ previous hour),257993,8.91,32.24,0.993,0.2

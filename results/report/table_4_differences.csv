@@ -1,0 +1,31 @@
+mode,rate_pct,comparison,diff_pp,ci_low,ci_high
+pooled,0.5,Model C minus Same as last hour,-6.0,-12.5,0.2
+pooled,0.5,Isolation Forest (on model C error) minus Same as last hour,-15.5,-21.0,-10.3
+pooled,0.5,Isolation Forest (on raw readings) minus Same as last hour,-7.7,-13.0,-2.6
+pooled,0.5,Isolation Forest (on model C error) minus Model C,-9.5,-16.1,-3.2
+pooled,0.5,Model C minus Historical typical value,23.2,17.6,29.5
+pooled,1.0,Model C minus Same as last hour,-3.6,-10.2,2.5
+pooled,1.0,Isolation Forest (on model C error) minus Same as last hour,-14.3,-20.3,-8.3
+pooled,1.0,Isolation Forest (on raw readings) minus Same as last hour,-9.4,-14.8,-3.8
+pooled,1.0,Isolation Forest (on model C error) minus Model C,-10.7,-18.5,-3.5
+pooled,1.0,Model C minus Historical typical value,29.3,23.3,35.9
+pooled,2.0,Model C minus Same as last hour,1.5,-3.1,6.8
+pooled,2.0,Isolation Forest (on model C error) minus Same as last hour,-5.5,-10.9,-0.2
+pooled,2.0,Isolation Forest (on raw readings) minus Same as last hour,-2.0,-7.5,3.3
+pooled,2.0,Isolation Forest (on model C error) minus Model C,-7.0,-13.0,-1.5
+pooled,2.0,Model C minus Historical typical value,36.3,30.1,42.5
+per_building,0.5,Model C minus Same as last hour,-8.5,-12.8,-4.5
+per_building,0.5,Isolation Forest (on model C error) minus Same as last hour,-10.1,-14.4,-5.8
+per_building,0.5,Isolation Forest (on raw readings) minus Same as last hour,-8.5,-12.6,-4.2
+per_building,0.5,Isolation Forest (on model C error) minus Model C,-1.5,-4.3,1.4
+per_building,0.5,Model C minus Historical typical value,7.8,3.6,11.7
+per_building,1.0,Model C minus Same as last hour,-3.2,-7.7,1.0
+per_building,1.0,Isolation Forest (on model C error) minus Same as last hour,-10.1,-14.8,-5.6
+per_building,1.0,Isolation Forest (on raw readings) minus Same as last hour,-8.9,-12.9,-4.4
+per_building,1.0,Isolation Forest (on model C error) minus Model C,-6.8,-9.9,-3.9
+per_building,1.0,Model C minus Historical typical value,14.7,9.4,19.5
+per_building,2.0,Model C minus Same as last hour,0.5,-3.4,4.7
+per_building,2.0,Isolation Forest (on model C error) minus Same as last hour,-5.3,-9.7,-0.6
+per_building,2.0,Isolation Forest (on raw readings) minus Same as last hour,-3.4,-8.5,2.3
+per_building,2.0,Isolation Forest (on model C error) minus Model C,-5.8,-8.9,-2.6
+per_building,2.0,Model C minus Historical typical value,18.9,12.6,24.6

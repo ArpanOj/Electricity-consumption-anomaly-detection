@@ -1,0 +1,13 @@
+mode,method,recall_at_1.0%,run_precision_at_1.0%,hour_precision_at_1.0%,mean_recall_over_rates
+pooled,Same as last hour,37.6,11.0,11.5,33.5
+pooled,Historical typical value,4.8,16.6,16.7,5.7
+pooled,Model A (no history),7.2,15.5,25.7,9.3
+pooled,"Model B (+ yesterday, last week)",11.2,12.8,31.2,12.4
+pooled,Model C (+ previous hour),38.0,19.6,30.7,34.7
+pooled,Fixed percentile,1.7,14.1,5.0,3.3
+per_building,Same as last hour,38.7,10.4,12.6,34.0
+per_building,Historical typical value,20.8,11.2,15.6,20.2
+per_building,Model A (no history),19.6,10.5,16.1,19.4
+per_building,"Model B (+ yesterday, last week)",19.4,11.8,15.7,19.4
+per_building,Model C (+ previous hour),38.0,13.8,16.8,35.0
+per_building,Fixed percentile,8.7,3.2,3.6,8.0
